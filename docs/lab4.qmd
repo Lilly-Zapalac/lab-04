@@ -358,7 +358,7 @@ var.test(body_length, body_mass)
 
 t.test(log(sally_clean$weight_g) ~ sally_clean$section, var.equal = TRUE)
 
-## We would reject the null because the p-value is below the 0.05 threshold. Therefore, there is not a significant difference in species biomass between clear cut and old growth forests.
+## We would reject the null because the p-value is below the 0.05 threshold. Therefore, there is a significant difference in species biomass between clear cut and old growth forests.
 
 ```
 
