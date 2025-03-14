@@ -615,6 +615,7 @@ library(ggpubr)
 library(dplyr)
 glimpse(pie_crab)
 crab_data_sorted <- pie_crab %>%
+  filter(site %in% c("GTM", "DB", "PIE")) %>%
   arrange(latitude)
 
  crab_data_sorted %>%
