@@ -334,10 +334,10 @@ salamander_clean <- and_vertebrates  |>
   drop_na(unittype, section)
 
 cont_table <- table(sally_clean$section, sally_clean$unittype)
-
+cont_table
 chisq.test(cont_table)
 
-## the p-value is smaller than the 0.05 threshold and therefore it is saying that you would reject the null hypothesis.
+## the p-value is smaller than the 0.05 threshold and therefore it is saying that you would reject the null hypothesis and therefore there is a relationship between the channel type and forest type in salamander abundance.
 ```
 
 <br>
